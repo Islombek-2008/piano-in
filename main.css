@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  gap: 5px;
+}
+
+.kavish {
+  width: 100px;
+  height: 300px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.kavish:active {
+  transform: scale(0.98);
+}
+
+.black-klavish {
+  width: 70px;
+  height: 200px;
+  position: absolute;
+  background-color: #000;
+  box-shadow: 0 5px 15px #000;
+  cursor: pointer;
+}
+
+.black-klavish:active {
+  transform: scale(0.98);
+}
+
+#do-black {
+  left: 65px;
+}
+
+#re-black {
+  left: 173px;
+}
+
+#mi-black {
+  left: 277px;
+}
+
+#fa-black {
+  display: none;
+}
+
+#sol-black {
+  left: 488px;
+}
+
+#lya-black {
+  left: 592px;
+}
